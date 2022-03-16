@@ -10,6 +10,8 @@ namespace tpmod4_1302204069
     {
         static void Main(string[] args)
         {
+            HaloGeneric<string> halo = new HaloGeneric<string>();
+            halo.sapauser("bayu");
         }
     }
 }
