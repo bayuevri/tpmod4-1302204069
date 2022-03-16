@@ -12,8 +12,8 @@ namespace tpmod4_1302204069
         {
             Data_Generic<String> data = new Data_Generic<string>("1302204069");
             data.printInfo();
-            HaloGeneric<string> halo = new HaloGeneric<string>();
-            halo.sapauser("bayu");
+            HaloGeneric<String> halo = new HaloGeneric<string>();
+            halo.SapaUser("bayu");
         }
     }
 }

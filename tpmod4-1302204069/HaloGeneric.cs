@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace tpmod4_1302204069
 {
-    internal class HaloGeneric
+    internal class HaloGeneric<T>
     {
+
+        public void SapaUser(T user)
+        {
+            Console.WriteLine("Halo user " + user);
+        }
+
     }
 }
