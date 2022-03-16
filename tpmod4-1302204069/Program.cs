@@ -10,6 +10,8 @@ namespace tpmod4_1302204069
     {
         static void Main(string[] args)
         {
+            Data_Generic<String> data = new Data_Generic<string>("1302204069");
+            data.printInfo();
             HaloGeneric<string> halo = new HaloGeneric<string>();
             halo.sapauser("bayu");
         }
